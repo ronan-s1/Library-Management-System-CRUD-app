@@ -1,4 +1,4 @@
-#Library-Management-System-CRUD-app
+<h1>Library Management System CRUD app</h1>
 <h2>Description</h2>
 This is an library management system CRUD application with a login and registration system. It was made with PHP on xampp using phpMyAdmin and Mysql for the database.<br><br>
 
