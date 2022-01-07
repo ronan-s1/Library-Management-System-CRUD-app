@@ -18,7 +18,7 @@ Password: password123
 2) Go into the XAMPP folder, find the htdocs folder and create a folder called library. The file path should look something like this: xampp\htdocs\library<br><br>
 3) Download the files from this repository and place it in the library folder you just created<br><br>
 4) Open the XAMPP control panel and start Apache and MySQL<br><br>
-5) To open phpMyAdmin, put this in the URL: http://localhost/phpmyadmin/
-6) Click "New" near the top left to create a new database, name it "library", click the SQL tab near the top, copy and paste the sql code from the table.sql file and click "go" near the bottom right.
+5) To open phpMyAdmin, put this in the URL: http://localhost/phpmyadmin/<br><br>
+6) Click "New" near the top left to create a new database, name it "library" then click create. Click the import tab and choose the library.sql file to import<br><br>
 7) Put this in the URL: http://localhost/library/index.php<br><br>
 8) Your done!
