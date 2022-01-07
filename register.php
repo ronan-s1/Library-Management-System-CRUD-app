@@ -37,7 +37,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="password">Password (6 characters)</label>
+                                <label for="password">Password (7 characters long at least)</label>
                                 <input type="password" class="form-control form-control-sm" name="password">
                             </div>
 
