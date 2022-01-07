@@ -56,3 +56,6 @@ INSERT INTO categories VALUES
 ('006', 'Self-Help'),
 ('007', 'Cookery'),
 ('008', 'Fiction');
+
+INSERT INTO users VALUES
+('John123', 'password123', 'John', 'Smith', '69 long lane', 'Dublin', '087120892');
