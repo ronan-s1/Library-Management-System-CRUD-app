@@ -1,3 +1,11 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jan 08, 2022 at 12:21 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -35,10 +43,10 @@ CREATE TABLE `books` (
 
 INSERT INTO `books` (`ISBN`, `title`, `author`, `edition`, `year`, `categoryID`, `reserved`) VALUES
 ('093-403992', 'Computers in Business', 'Alicia Oneill', 3, 1997, '003', 'Y'),
-('23472-8729', 'Exploring Peru', 'Stephanie Birchi', 4, 2005, '005', 'Y'),
-('237-34823', 'Business Strategy', 'Joe Peppard', 2, 1997, '002', 'Y'),
+('23472-8729', 'Exploring Peru', 'Stephanie Birchi', 4, 2005, '005', 'N'),
+('237-34823', 'Business Strategy', 'Joe Peppard', 2, 1997, '002', 'N'),
 ('23u8-923849', 'A guide to nutrition', 'John Thrope', 2, 1997, '001', 'N'),
-('2983-3494', 'Cooking for children', 'Anabelle Sharper', 1, 2003, '007', 'Y'),
+('2983-3494', 'Cooking for children', 'Anabelle Sharper', 1, 2003, '007', 'N'),
 ('82n8-308', 'computers for idiots', 'Susan O\'Neill', 5, 1998, '004', 'N'),
 ('9823-029384', 'My ranch in Texas', 'George Bush', 1, 2005, '001', 'N'),
 ('9823-23984', 'My Life in picture', 'Kevin Graham', 8, 2004, '001', 'N'),
@@ -86,7 +94,12 @@ CREATE TABLE `reserved` (
   `reservedDate` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `reserved`
+--
 
+INSERT INTO `reserved` (`ISBN`, `username`, `reservedDate`) VALUES
+('093-403992', 'ronan123', '2022-01-08');
 
 -- --------------------------------------------------------
 
@@ -110,7 +123,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `firstname`, `surname`, `addressLine1`, `addressLine2`, `city`, `mobile`) VALUES
-('john123', 'password123', 'John', 'Smith', '69 coxlong', 'Big Street', 'Dublin', '087625357'),
+('ronan123', 'password123', 'Ronan', 'Confedential', '123 Coxlong Drive', '69 Lane', 'Dublin', '087625357');
 
 --
 -- Indexes for dumped tables
