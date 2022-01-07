@@ -10,7 +10,7 @@ This is an library management system CRUD application with a login and registrat
 Books you reserved are specific to the user.
 
 <h2>Default Login</h2>
-Username: John123<br>
+Username: ronan123<br>
 Password: password123
 
 <h2>Set Up</h2>
