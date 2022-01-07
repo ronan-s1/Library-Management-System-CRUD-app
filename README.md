@@ -19,6 +19,6 @@ Password: password123
 3) Download the files from this repository and place it in the library folder you just created (make sure the file isn't zipped that you copied all the files from the folder into the library folder.<br><br>
 4) Open the XAMPP control panel and start Apache and MySQL.<br><br>
 5) To open phpMyAdmin, put this in the URL: http://localhost/phpmyadmin/<br><br>
-6) Click "New" near the top left to create a new database, name it "library" then click create. Click the import tab and choose the library.sql file to import.<br><br>
+6) Click "New" near the top left to create a new database, name it "library" (make sure it's all lowercase) then click create. Click the import tab and choose the library.sql file to import.<br><br>
 7) Put this in the URL: http://localhost/library/index.php<br><br>
 8) Your done!
