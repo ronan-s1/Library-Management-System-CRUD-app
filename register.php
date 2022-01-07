@@ -37,7 +37,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="password">Password</label>
+                                <label for="password">Password (6 characters)</label>
                                 <input type="password" class="form-control form-control-sm" name="password">
                             </div>
 
@@ -120,7 +120,7 @@ if (isset($_POST['username']) && isset($_POST['fname']) && isset($_POST['surname
         $valid = FALSE;
     }
 
-    elseif ($password != $password_confirm || strlen($password) != 6)
+    elseif ($password != $password_confirm || strlen($password) < 6)
     {
         echo '<script>alert("ERROR: password is invalid!")</script>';
         $valid = FALSE;
