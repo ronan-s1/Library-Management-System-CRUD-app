@@ -53,6 +53,6 @@ INSERT INTO categories VALUES
 ('003', 'Biography'),
 ('004', 'Technology'),
 ('005', 'Travel'),
-('006, 'Self-Help'),
+('006', 'Self-Help'),
 ('007', 'Cookery'),
-('008, 'Fiction');
+('008', 'Fiction');
