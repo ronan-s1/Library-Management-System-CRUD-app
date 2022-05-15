@@ -7,8 +7,6 @@ This is an library management system CRUD application with a login and registrat
 - You can view your reserved books
 - You can unreserve a book
 
-Books you reserved are specific to the user.
-
 ## Default Login
 Username: ronan123
 <br>
