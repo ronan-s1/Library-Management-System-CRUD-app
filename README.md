@@ -11,7 +11,6 @@ Books you reserved are specific to the user.
 
 ## Default Login
 Username: ronan123
-
 Password: password123
 
 ## Set Up
