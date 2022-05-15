@@ -1,5 +1,5 @@
-<h1>Library Management System CRUD app</h1>
-<h2>Description</h2>
+# Library Management System CRUD app
+## Description
 This is an library management system CRUD application with a login and registration system. It was made with PHP on xampp using phpMyAdmin and MySQL for the database.<br><br>
 
 - You can register and login
@@ -9,11 +9,12 @@ This is an library management system CRUD application with a login and registrat
 
 Books you reserved are specific to the user.
 
-<h2>Default Login</h2>
-Username: ronan123<br>
+## Default Login
+Username: ronan123
+
 Password: password123
 
-<h2>Set Up</h2>
+## Set Up
 1) Download XAMMP here: https://www.apachefriends.org/index.html<br><br>
 2) Go into the XAMPP folder, find the htdocs folder and create a folder called library. The file path should look something like this: xampp\htdocs\library<br><br>
 3) Download the files from this repository and place it in the library folder you just created (make sure the file isn't zipped and that you copied all the files from the folder into the library folder).<br><br>
