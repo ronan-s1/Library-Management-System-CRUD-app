@@ -1,7 +1,6 @@
 # Library Management System CRUD app
 ## Description
-This is an library management system CRUD application with a login and registration system. It was made with PHP on xampp using phpMyAdmin and MySQL for the database.<br><br>
-
+This is an library management system CRUD application with a login and registration system. It was made with PHP on xampp using phpMyAdmin and MySQL for the database.
 - You can register and login
 - You can reserve an available book
 - You can view your reserved books
